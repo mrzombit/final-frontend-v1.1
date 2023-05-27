@@ -1,0 +1,137 @@
+.pjt-card {
+    width: 110px;
+    height: 110px;
+    background-color: #eaebfb;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.pjt-card:active{
+    cursor: pointer;
+    background-color: #392a5c !important;
+    transition: 0.3s;
+}
+
+.pjt-card:hover{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    background-color: #9669ff;
+    transition: 0.3s;
+}
+
+.pjt-card:hover .pjt-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: white !important;
+    transition: 0.3s;
+}
+
+.pjt-card:hover .pjt-icon{
+    font-size: 40px;
+    color: white ;
+    transition: 0.3s;
+}
+
+.pjt-card:active .pjt-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7679cf !important;
+    transition: 0.3s;
+}
+
+.pjt-card:active .pjt-icon {
+    transition: 0.3s;
+    color: #7679cf;
+}
+
+.pjt-icon {
+    font-size: 30px;
+    color: #5558B0;
+
+}
+
+.pjt-title {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5558B0;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+
+/* ///---------------------------------------/// */
+.pjt-card-2 {
+    width: 110px;
+    height: 110px;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.pjt-card-2:active{
+    cursor: pointer;
+    background-color: #392a5c !important;
+    transition: 0.3s;
+}
+
+.pjt-card-2:hover{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    background-color: #c2bbd2;
+    transition: 0.3s;
+}
+
+.pjt-card-2:hover .pjt-title-2{
+    font-size: 14px;
+    font-weight: 400;
+    color: white !important;
+    transition: 0.3s;
+}
+
+.pjt-card-2:hover .pjt-icon-2{
+    font-size: 40px;
+    color: white ;
+    transition: 0.3s;
+}
+
+.pjt-card-2:active .pjt-title-2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7679cf !important;
+    transition: 0.3s;
+}
+
+.pjt-card-2:active .pjt-icon-2 {
+    transition: 0.3s;
+    color: #7679cf;
+}
+
+.pjt-icon-2 {
+    font-size: 30px;
+    color: #464646;
+
+}
+
+.pjt-title-2 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #464646;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}

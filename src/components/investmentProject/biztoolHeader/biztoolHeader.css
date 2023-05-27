@@ -1,0 +1,16 @@
+.biztool-header-text{
+  font-size: 20px;
+  font-weight: 500;
+  color: #2c3b5a;
+  text-decoration: none;
+}
+
+.line-hr {
+  min-width: 78.5vw;
+  min-height: 2px;
+  background-color: #2c3b5a;
+}
+
+.btn-mr {
+    padding-right: 2rem;
+}

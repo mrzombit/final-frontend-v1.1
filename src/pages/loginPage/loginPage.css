@@ -1,0 +1,137 @@
+.lp {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.head-font {
+  font-size: 38px;
+  font-weight: 600;
+  color: #424358;
+}
+
+.low-font {
+  margin-top: -1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.6;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.myinput {
+  display: flex;
+  height: 40px;
+  width: 360px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2 px;
+  border-color: #5356b3;
+  background: #ffffff;
+  padding: 10px;
+}
+
+.myinput:focus {
+  border-color: #5356b3;
+  background: #eb6b6b;
+}
+
+.text-field {
+  position: relative;
+  margin: 10px 2.5px 20px 2.5px;
+}
+
+input {
+  display: inline-block;
+
+  height: 45px;
+  width: 100%                     ;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2 px;
+  border-color: #5356b3;
+  background: #ffffff;
+  padding: 10px 10px 10px 20px;
+  /* border: thin solid #fafafa;
+    border-bottom: solid medium #999;
+    color: #444; */
+
+  background-color: #fafafa;
+  border-radius: 10px;
+  /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+
+input:focus {
+  border: thin solid #5558b0;
+  border-bottom: solid medium #5558b0;
+  background-color: #fff;
+}
+
+label {
+  color: #5558b0;
+  position: absolute;
+  pointer-events: none;
+  left: 18px;
+  top: 10px;
+  transition: 0.2s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -15px;
+  left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #5558b0;
+  background-color: #fff;
+  padding: 0 5px 0 5px;
+}
+
+.login-butt { 
+    display: flex;
+    background-color: #5558b0;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border: #5558b0;
+    padding: 1rem 3rem 1rem 3rem;
+    align-items: center;
+  }
+
+  .login-butt:hover { 
+    background-color: #7174db;
+    color: #ffffff;
+  }
+
+  .gg-butt { 
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    color: #3a3d7e;
+    height: 45px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 10px;
+    border: #5558b0;
+    padding: 1rem 4rem 1rem 3rem;
+    align-items: center;
+  }
+  .gg-butt:hover { 
+    background-color: #dddddd;
+
+  }
+
+  .link-text {
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.6;
+    font-weight: 500;
+    margin-top: 11px;
+    margin-left: 8px;
+    
+  }
+
+  .gg-icon {
+        font-size: 1.5rem;
+  }
+
+ 

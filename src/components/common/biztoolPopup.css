@@ -1,0 +1,98 @@
+.popup-overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: rgba(66, 66, 66, 0.5);
+  z-index: 1000;
+  /* display: flex; */
+  top: 0px;
+  left: 0px;
+  display: flex;
+  transition: 1.2s;
+
+}
+.popup-card {
+  min-width: 430px;
+  max-width: 1030px;
+  min-height: 274px;
+  max-height: 774px;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-self: start;
+  padding: 20px;
+  flex-direction: column;
+  text-align: left;
+  /* overflow-y: scroll; */
+  transition: 1.2s;
+
+}
+
+
+.new-invest-form {
+  /* display: flex; */
+  text-align: left;
+}
+
+.input-newInvest-pj {
+  height: 30px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #c5c5c5;
+  font-size: 12px;
+  margin: 3px 8px 8px 0px;
+  resize: none;
+}
+
+.input-newInvest-pj-small {
+  height: 30px;
+  width: 120px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #c5c5c5;
+  font-size: 12px;
+  margin: 3px 8px 8px 0px;
+  resize: none;
+}
+
+.label-newInvest-pj {
+    font-size: 12px;
+}
+
+.template-scroll {
+  display: flex;
+  /* flex-direction: row; */
+  width: 590px;
+  height: 110px;
+  /* background-color: rgb(118, 165, 165); */
+  cursor: grab;
+  overflow-x: scroll;
+  margin: 8px 0px 0px 0px;
+  
+}
+
+.popup-content{
+  /* max-width: 590px; */
+  overflow-y: hidden;
+  overflow-x: hidden;
+  min-height: 400px;
+}
+
+.min-w-select{
+  width: 250px;
+}
+
+.preTitle-header-style{
+  color: #364164;
+  font-size: medium;
+}
+
+.title-header-style{
+  color: #313A58;
+  font-weight: 600;
+  font-size:large;
+  text-align: center;
+}

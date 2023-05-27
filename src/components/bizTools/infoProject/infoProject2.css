@@ -1,0 +1,91 @@
+
+  .config-create-project-img-style{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(76, 38, 159);
+  }
+  
+  .config-create-project-inputs-style{
+    background-color: #f0ecff;
+    height: 500px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .config-create-project-descriptions-style{
+    height: 500px;
+    width: 800px;
+  }
+  .config-create-project-finish-style{
+    height: 500px;
+    background-color: #ffffff;
+    width: 800px;
+  }
+  .config-each-cp-input-header{
+    padding-left: 2px;
+    font-size: 14px;
+    color: #6a1fed;
+  }
+  
+  
+  .config-each-cp-text-input{
+    width: 200px;
+    border: 1px solid #8c57e8;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .config-each-cp-text-input.name{
+    width: 410px;
+    border: 1px solid #8c57e8;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .config-each-cp-text-inputarea{
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #8c57e8;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .config-sale-trend-box {
+    background-color: #6B7597;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    max-height: 45px;
+}
+.config-sale-trend-box-danger{
+    background-color: #ec1c1c;
+    min-width: 190px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    max-height: 45px;
+}
+
+.config-sale-trend-input {
+  border: solid 2px #6B7597;
+  max-width: 290px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.config-sale-trend-input.border.border-danger{
+  max-width: 290px !important;
+}

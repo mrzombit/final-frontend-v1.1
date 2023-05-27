@@ -1,0 +1,88 @@
+
+.pj-card {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  outline: #d9daf1 solid 1px;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  transform: scale(0.8) translate(-10%, 0%);
+}
+
+.pj-card:hover {
+  outline: #d9daf1 solid 2px;
+}
+
+.pj-card-icon {
+  width: 200px;
+  height: 150px;
+  background-color: #eaebfb;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: #b2b3da;
+}
+
+.pj-card-box {
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border: 1px solid #d9daf1; */
+}
+
+.pj-card-box-icon {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: #5558b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+.pj-icon {
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #5558B0;
+}
+
+.pj-card-box-head {
+  width: 150px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pj-card-box-name {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+}
+
+.pj-card-box-details {
+  font-size: 10px;
+  display: flex;
+  margin-top: -15px;
+  opacity: 0.6;
+}
+
+.no-text-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.no-text-link:hover {
+    text-decoration: none;
+    color: #000000;
+}

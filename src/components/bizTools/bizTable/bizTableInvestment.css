@@ -1,0 +1,38 @@
+.bt {
+  /* margin: 0rem 0rem 0rem 16rem; */
+  /* padding: 0rem 3rem 0rem 3rem; */
+  font-size: 14px;
+  width: 82vw;
+}
+
+.tb-con {
+  width: 65%;
+  /* height: 500px; */
+}
+
+.tb-text-head {
+  font-weight: 600;
+}
+
+.tb-text-normal {
+    font-weight: 400;
+  }
+
+.t-num {
+    text-align: end;
+}
+
+.t-text {
+    text-align: start;
+}
+
+.t-text-c {
+    text-align: center;
+}
+
+.tb-icon {
+    /* display: flex; */
+    margin-right: 1rem;
+
+  
+}

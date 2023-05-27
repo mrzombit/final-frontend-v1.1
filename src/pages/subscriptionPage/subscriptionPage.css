@@ -1,0 +1,20 @@
+.biz-content-subscript {
+    margin: 2rem 0rem 0rem 16rem;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size: 14px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+
+  .text-acc-l {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .master-card-text {
+    text-align: start;
+  }

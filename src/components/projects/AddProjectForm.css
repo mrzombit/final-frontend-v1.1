@@ -1,0 +1,86 @@
+.sale-trend-box {
+    background-color: #6B7597;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    max-height: 45px;
+}
+.sale-trend-box-danger{
+    background-color: #ec1c1c;
+    min-width: 290px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    max-height: 45px;
+}
+
+.business-goal-box {
+    background-color: #6B7597;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.business-goal-input{
+    height: auto;
+    border: solid 2px #6B7597;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-trend-input {
+    border: solid 2px #6B7597;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-business-goal-button {
+    background-color: #6B7597;
+    border-radius: 5px;
+    min-width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.add-business-goal-button:hover {
+    cursor: pointer;
+    background-color: #8e929f;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.cashflows-pane {
+    overflow: scroll;
+    max-height: 280px;
+}

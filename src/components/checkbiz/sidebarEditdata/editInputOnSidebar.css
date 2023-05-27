@@ -1,0 +1,70 @@
+.side-edit-input-container {
+  display: flex;
+  /* flex-direction: column; */
+  width: 17.4vw;
+  /* height: 70px; */
+  /* background-color: #9b9b9b; */
+  padding: 0px 10px 7px 10px;
+  margin: 0px 0px 0px 0px;
+  /* align-items: center; */
+}
+
+.side-edit-result-container {
+  /* display: flex; */
+  width: 17.4vw;
+  padding: 0px 10px 7px 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+.side-edit-input-card {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+}
+.side-edit-result-card {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 3px solid #2e148b;
+  margin-bottom: 3px;
+  color: #2e148b;
+}
+
+.side-edit-input-name {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  color: #2e148b;
+}
+
+.side-edit-input-box {
+  width: 40%;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 1px;
+  border: none;
+  border-bottom: 2px solid #2e148b;
+  text-align: right;
+  color: #2e148b;
+}
+.side-edit-x {
+
+  font-size: 12px;
+  /* border-radius: 1px;
+  border: none;
+  border-bottom: 2px solid #2e148b;
+  text-align: right;
+  color: #2e148b; */
+}
+
+.side-edit-result {
+  width: 40%;
+  height: 30px;
+  text-align: right;
+  font-weight: 500;
+  /* border-bottom: 2px double #2e148b; */
+}

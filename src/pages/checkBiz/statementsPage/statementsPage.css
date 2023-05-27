@@ -1,0 +1,91 @@
+.statement-body {
+  /* margin-left: 16rem; */
+  margin-top: 1rem;
+}
+
+.statement-block {
+  display: flex;
+  width: 63%;
+  height: 230px;
+  /* background-color: #ECECEC; */
+  justify-content: flex-start;
+  align-items: center;
+  /* transform: translate(13%,2%); */
+  border-radius: 20px;
+  /* padding-left: 2%; */
+  margin-left: 1.5%;
+}
+/* body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "Tahoma";
+} */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+  padding: 1cm;
+  border: 5px red solid;
+  height: 256mm;
+  outline: 2cm #ffeaea solid;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
+
+.scrollable {
+  height: 87vh;
+  overflow: scroll;
+  /* background-color: aqua; */
+}
+.doc-center {
+  /* display: flex;background-color: #868686; */
+  
+}
+.block-print {
+  display: flex;
+  justify-content: end;
+  /* background-color: #868686; */
+  
+}
+.print-state {
+  background-color: #5558b0;
+  color: #ffffff;
+  padding-inline-end: 10px;
+  align-items: center;
+}
+.print-state:hover {
+  background-color: #43458b;
+  color: #ffffff;
+}
+.custom-statement-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

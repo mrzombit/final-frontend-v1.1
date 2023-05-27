@@ -1,0 +1,49 @@
+.filled-biztool-button { 
+    background-color: #5558b0;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #5558b0;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.biztool-button-large{
+    font-size: 30px;
+}
+.filled-biztool-button:hover { 
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: #8488e5;
+    color: #ffffff;
+}
+.filled-biztool-button:active { 
+    transform: scale(1.1);
+    background-color: #373a90;
+    color: #c1b4e5;
+}
+.lighted-biztool-button { 
+    background-color: white;
+    color: #5558b0;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #5558b0;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.lighted-biztool-button:hover { 
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #7174db;
+    color: #ffffff;
+}
+.lighted-biztool-button:active { 
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #2429a4;
+    color: #858194;
+}

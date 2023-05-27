@@ -1,0 +1,17 @@
+.sub-card {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 310px;
+    background-color: #EAEBF1;
+    border-radius: 15px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.sub-card-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #5558B0;
+    border-radius: 7px;
+}

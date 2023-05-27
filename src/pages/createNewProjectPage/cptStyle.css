@@ -1,0 +1,46 @@
+.cpt1-description-img{
+    width: 400px;
+}
+
+.input-description-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cpt-input-description-header{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(148, 87, 233);
+}
+.cpt-input-description-content{
+    padding: 5px;
+    color: rgb(130, 82, 196);
+}
+.example-description-border{
+margin-top: 10px;
+margin-right: 20px;
+    width: 300px;
+   border: 2px solid rgb(242, 233, 255);
+   background-color: rgb(238, 226, 255);
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.cpt1-description-img-2{
+    height: 200px;
+    
+}
+
+.hypertext-style{
+    color: rgb(61, 61, 255);
+    text-decoration: underline;
+}
+.hypertext-style:hover{
+    cursor: pointer;
+    color: rgb(114, 114, 255);
+}
+
+.hypertext-style:active{
+    cursor: pointer;
+    color: rgb(52, 52, 199);
+}

@@ -1,0 +1,145 @@
+.landing-div {
+  margin-top: 2%;
+  margin-left: 5%;
+  min-width: 90vw;
+}
+
+.slogan{
+  padding-top: 1vh;
+  text-align: center;
+}
+.logo-font {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2f317a;
+}
+
+.butt { 
+  display: flex;
+  background-color: #5558b0;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  border: #5558b0;
+  padding: 1rem;
+  align-items: center;
+ 
+}
+
+.butt:hover {
+  background-color: #4b4e9c;
+  color: white;
+}
+
+.slogan-font {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2a2a3f;
+}
+
+.slogan-l-font {
+  font-size: 20px;
+  font-weight: 400;
+  color: #32334d;
+  opacity: 70%;
+}
+
+.func-card-1 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #bff5f1;
+  border-radius: 15px;
+}
+
+.func-card-2 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  background-color: #d1ebff;
+  border-radius: 15px;
+}
+
+.func-card-block {
+  width: 500px;
+  height: 450px;
+  /* background-color: #050505; */
+}
+
+.func-card-3 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 300px;
+  width: 500px;
+  height: 215px;
+  background-color: #faead5;
+  border-radius: 15px;
+}
+
+.func-card-block-2 {
+  width: 500px;
+  height: 230px;
+  /* background-color: #4400ff; */
+}
+
+.func-card-4 {
+  display: block;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-end; */
+  overflow: hidden;
+  width: 300px;
+  width: 260px;
+  height: 220px;
+  background-color: #d0daff;
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+
+.func-card-5 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 300px;
+  width: 230px;
+  height: 220px;
+  background-color: #ffc7c7;
+  border-radius: 15px;
+}
+
+.head-text-card {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  color: #32334d;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.img-card-2 {
+  display: block;
+  object-fit: fill;
+}
+
+.butt.signin.btn.btn-primary {
+min-width: 100px !important;
+}
+
+.butt.dropdown-style.dropdown-toggle.dropdown-toggle-split.btn.btn-primary {
+  background-color: #5558b0;
+  max-height: 40px !important;
+}
+
+.butt.dropdown-style.dropdown-toggle.dropdown-toggle-split.btn.btn-primary:hover {
+background-color: #4b4e9c;
+  max-height: 40px !important;
+}

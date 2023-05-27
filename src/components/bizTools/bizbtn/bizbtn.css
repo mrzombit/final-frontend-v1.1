@@ -1,0 +1,16 @@
+.biz-button { 
+    display: flex;
+    background-color: #5558b0;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    border: #5558b0;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .biz-button:hover { 
+    background-color: #7174db;
+    color: #ffffff;
+  }

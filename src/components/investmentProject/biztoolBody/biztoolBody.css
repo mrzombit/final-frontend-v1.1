@@ -1,0 +1,8 @@
+.biztool-body {
+    display: flex;
+}
+
+.biztool-body-flex {
+    /* overflow: hidden; */
+    flex: 1 0 0;
+}

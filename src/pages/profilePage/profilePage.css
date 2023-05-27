@@ -1,0 +1,46 @@
+.biz-content {
+  margin: 2rem 0rem 0rem 16rem;
+  padding: 0rem 3rem 0rem 3rem;
+  font-size: 14px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+
+.profile-banner {
+  width: 80%;
+  height: 200px;
+  background-color: #7073d4;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  background-color: #a1a2c5;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  transform: translate(60%, 120%);
+
+  border-radius: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+.user-name {
+  position: absolute;
+  transform: translate(110%, 520%);
+
+  font-size: 26px;
+}
+
+.profile-card-mt {
+    margin-top: 7rem;
+}

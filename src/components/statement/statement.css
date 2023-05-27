@@ -1,0 +1,56 @@
+.statement-header {
+  display: flex;
+  justify-content: space-between;
+  width: 64vw;
+}
+.statement-header-chart {
+  display: flex;
+  justify-content: space-between;
+  width: 48vw;
+}
+
+/* cash flow document */
+.docA4 {
+  /* width: 1240px;
+    height: 1754px; */
+  background-color: transparent;
+  font-size: 10px;
+}
+
+.dov-money-cell {
+  text-align: end;
+  width: 100px;
+  font-size: 12px;
+  padding: 5px;
+}
+.dov-money-cell-b {
+  text-align: end;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px;
+}
+.dov-name-cell {
+  /* text-align: end; */
+  /* width: 100px; */
+  font-size: 12px;
+  padding: 5px;
+}
+.dov-border-cell {
+  font-size: 12px;
+  width: 320px;
+  font-weight: 600;
+  display: flex;
+}
+
+.dov-head-cell {
+  /* margin-bottom: 1rem; */
+  font-weight: 600;
+}
+
+.biz-water-mask {
+  color: #bcc1d2;
+  font-weight: 600;
+  /* position: absolute; */
+  transform: translate(76%, 3800%)
+}

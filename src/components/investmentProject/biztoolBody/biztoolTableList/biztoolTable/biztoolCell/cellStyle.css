@@ -1,0 +1,55 @@
+.biztool-input-cell {
+  border-radius: 0% !important;
+  
+}
+
+.biztool-input-cell-no-border {
+  border-radius: 0% !important;
+  border: none !important;
+}
+
+.option-cell:hover {
+  cursor: pointer;
+  background-color: rgb(243, 243, 243);
+}
+
+.option-cell {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 45px;
+}
+
+.hide-option-cell {
+  width: 25px;
+  height: 45px;
+}
+
+.seasonal-row-style {
+  overflow: scroll;
+  width: 330px !important;
+  border: 1px solid rgb(21, 95, 255);
+}
+.numbers-table-style{
+  overflow: scroll;
+  min-width: 600px;
+  border: 1px solid rgb(21, 95, 255);
+}
+
+.seasonal-cell-style {
+  min-width: 100px;
+  border: 1px solid rgb(127, 227, 255);
+  border-radius: 0% !important;
+}
+
+.seasonal-month-style {
+  background-color: rgb(207, 207, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 120px;
+  height: 45px;
+}
