@@ -9,7 +9,6 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import timeToShow from "../../common/timeToShow";
 import INPUT_TYPES from "../../../pages/comparePage/createProjectInputTypes";
-import { useNavigate } from "react-router-dom";
 import URL from './../../../URL'
 
 function infoProject(props) {
@@ -64,6 +63,7 @@ function infoProject(props) {
       axios.get(`${INDUSTRY_CREATE_URL}${selectedProject.industry_ids[0]}`)
       .then(res => {
         shallowSelectedIndustry.push({ value: res.data._id, label: res.data.name.th })
+        console.log(JSON.stringify(shallowSelectedIndustry));
         setSelectedIndustry(shallowSelectedIndustry[0])
       })
       setIsLoaded(true)
@@ -287,7 +287,7 @@ function infoProject(props) {
     console.log(value);
     if (value !== '') {
       let shallowSaleTrends = []
-      
+      let shallowDebtIssuances = []
       for (let i = 0; i < Number(value); i++) {
         if (i <= selectedProject.model_config.projection_period - 1) {
           shallowSaleTrends.push(selectedProject.sale_trends[i])
@@ -301,6 +301,23 @@ function infoProject(props) {
           shallowSaleTrends.push(shallowSaleTrend)
         }
       }
+      for (let i = 0; i < selectedProject.miscellaneous.debt_issuance.length; i++){
+        let shallowPayments = []
+        for (let j = 0; j < Number(value); j++) {
+          if (j <= selectedProject.model_config.projection_period - 1) {
+            shallowPayments.push(selectedProject.miscellaneous.debt_issuance[i].payments[j])
+          }
+          else {
+            let shallowPayment = {
+              year: j + 1,
+              amount: 0,
+            }
+            shallowPayments.push(shallowPayment)
+          }
+        }
+        shallowDebtIssuances.push({...selectedProject.miscellaneous.debt_issuance[i], payments: shallowPayments})
+      }
+      console.log(JSON.stringify(shallowDebtIssuances));
       let shallowProject = {
         ...selectedProject,
         model_config: {
@@ -308,6 +325,10 @@ function infoProject(props) {
           projection_period: Number(value),
         },
         sale_trends: shallowSaleTrends,
+        miscellaneous: {
+          ...selectedProject.miscellaneous,
+          debt_issuance: shallowDebtIssuances
+        }
       }
       setPrevPeriod(Number(value))
       dispatch(setSelectedProject(shallowProject))

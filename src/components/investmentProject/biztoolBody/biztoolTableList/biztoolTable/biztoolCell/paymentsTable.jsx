@@ -61,7 +61,7 @@ const PaymentsTable = (props) => {
             <div className='d-flex' >
             {[...Array(selectedProject.model_config.projection_period)].map((a, index) =>
               <div className="border border-dark d-flex justify-content-center align-items-center" style={{ backgroundColor: "#eeeeee", height: "50px", minWidth: "200px" }}>
-                {KCalulateFunctions.getRemainDebtYearly(props.data, index + 1)}
+                {/* {KCalulateFunctions.getRemainDebtYearly(props.data, index + 1)} */}2
               </div>
             )}
              </div>
