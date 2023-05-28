@@ -379,7 +379,7 @@ const ffcCard = (props) => {
                                 </div>
                             }
                             {props.type === "revenue-service" &&
-                      
+
                                 <table className="table table-sm ffc-table-text">
                                     <thead>
                                         <tr>
@@ -402,7 +402,7 @@ const ffcCard = (props) => {
                                         ))}
                                     </tbody>
                                 </table>
-                               
+
                             }
                             {props.type === "revenue-product" &&
                                 <table className="table table-sm ffc-table-text">
@@ -520,74 +520,56 @@ const ffcCard = (props) => {
                                     </thead>
                                     <tbody>
                                         <th className="dov-name-cell">กระแสเงินสดจากกิจกรรมดำเนินงาน</th>
-                                        {/* <tr>
-                                            <td className="dov-name-cell">ค่าเสื่อมราคาและการจัดจำหน่าย</td>
-                                            {(calculateCashFlows(totalInvestment, 0.7, 4)).map(eachYear => (
-                                                // yearRange.map((i) => (
-                                                <td scope="col" className="dov-money-cell">{eachYear}</td>
-                                                // ))
-                                            ))}
-                                        </tr> */}
+                                        {/* <div>{total_income()}</div>
+            <div>{total_CFO()}</div>
+            <div>{total_CFI()}</div>
+            <div>{total_CFF()}</div> */}
                                         <tr>
                                             <td className="dov-name-cell">ต้นทุนทางการเงิน</td>
                                             {totalFixedCost.map((i) => (
-                                                <td scope="col" className="dov-money-cell">{i.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+                                                <td scope="col" className="dov-money-cell">{cbf.moneyDisplay(i * (-1))}</td>
                                             ))}
                                         </tr>
                                         <tr>
                                             <td className="dov-name-cell">รายได้ทางการเงิน</td>
-                                            {totalRevenue.map((i) => (
-                                                <td scope="col" className="dov-money-cell">{i.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+                                            {totalRevenue_year.map((i) => (
+                                                <td scope="col" className="dov-money-cell">{cbf.moneyDisplay(i)}</td>
                                             ))}
                                         </tr>
                                         <th className="dov-name-cell">กระแสเงินสดจากกิจกรรมลงทุน</th>
                                         <tr>
                                             <td className="dov-name-cell">ค่าใช้จ่ายการลงทุน</td>
-                                            {totalInvestment.map((i) => (
-                                                <td scope="col" className="dov-money-cell">{i.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+                                            {totalCFI.map((i) => (
+                                                <td scope="col" className="dov-money-cell">{cbf.moneyDisplay(i)}</td>
                                             ))}
                                         </tr>
-
                                         <th className="dov-name-cell">กระแสเงินสดจากกิจกรรมจัดหาเงิน</th>
                                         <tr>
-                                            <td className="dov-name-cell">เงินสดรับจากการชำระเงินกู้</td>
-                                            {totalIncomeDebt.map(eachYear => (
-                                                // yearRange.map((i) => (
-                                                <td scope="col" className="dov-money-cell">{eachYear.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
-                                                // ))
+                                            <td className="dov-name-cell">เงินสดรับจากการกู้ยืม</td>
+                                            {totalIncomeDebt.map((i) => (
+                                                <td scope="col" className="dov-money-cell">{cbf.moneyDisplay(i)}</td>
                                             ))}
                                         </tr>
                                         <tr>
-                                            <td className="dov-name-cell">เงินสดจ่ายจากการกู้ยืม</td>
-                                            {totalExpendDebt.map(eachYear => (
-                                                // yearRange.map((i) => (
-                                                <td scope="col" className="dov-money-cell">{eachYear.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
-                                                // ))
+                                            <td className="dov-name-cell">เงินสดจ่ายจากการชำระเงินกู้</td>
+                                            {totalExpendDebt.map((i) => (
+                                                <td scope="col" className="dov-money-cell">{cbf.moneyDisplay(i)}</td>
                                             ))}
                                         </tr>
+                                        {/* <tr>
+              <td className="dov-name-cell">เงินสดจ่ายจากเงินปันผล</td>
+              {(calculateCashFlows(totalInvestment, 0.7, 4)).map(eachYear => (
+                // yearRange.map((i) => (
+                <td scope="col" className="dov-money-cell">{eachYear.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
+                // ))
+              ))}
+            </tr> */}
                                         <tr>
                                             <th className="dov-name-cell">กระแสเงินสดสุทธิ</th>
-                                            {netCashflow.map(eachYear => (
-                                                // yearRange.map((i) => (
-                                                <th scope="col" className="dov-money-cell">{eachYear.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</th>
-                                                // ))
+                                            {netCashflow.map((i) => (
+                                                <td scope="col" className="dov-money-cell">{cbf.moneyDisplay(i)}</td>
                                             ))}
                                         </tr>
-
-
-                                        {/* {tableRevenueData.service_tables.map((table) => (
-                                            <React.Fragment key={table._id}>
-                                                {table.services.map((each) => (
-                                                    <tr key={each._id}>
-                                                        <td className="dov-name-cell">{each.name}</td>
-                                                        {yearRange.map((i) => (
-                                                            <td scope="col" className="dov-money-cell">{each.revenue_per_service.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</td>
-                                                        ))}
-                                                    </tr>
-                                                ))}
-                                            </React.Fragment>
-                                        ))} */}
-
 
 
                                     </tbody>

@@ -81,7 +81,7 @@ const incomeDocument = () => {
     <div className="">
       <div>
         <div className="dov-head-cell">งบกำไรขาดทุน</div>
-        <div className="dov-name-cell mb-2">การประมาณการในช่วง ปี {yearRange[0]} - {yearRange[-1]} </div>
+        <div className="dov-name-cell mb-2">การประมาณการในช่วง ปี {yearRange[0]} - {yearRange[yearRange.length-1]} </div>
         <div className="biz-water-mask">create by BIZCHECK</div>
         <table className="table container table-hover">
           <thead>
