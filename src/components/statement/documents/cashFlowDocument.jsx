@@ -169,7 +169,7 @@ const cashFlowDocument = () => {
       <div>
         <div className="dov-head-cell mb-3">บริษัท {projectName}</div>
         <div className="dov-head-cell">งบกระแสเงินสด</div>
-        <div className="dov-name-cell">การประมาณการในช่วง ปี {yearRange[0]} - {yearRange[-1]}</div>
+        <div className="dov-name-cell">การประมาณการในช่วง ปี {yearRange[0]} - {yearRange[yearRange.length-1]}</div>
         <div className="biz-water-mask">create by BIZCHECK</div>
         <table className="table container table-hover">
           <thead>

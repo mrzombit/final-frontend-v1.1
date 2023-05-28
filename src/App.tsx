@@ -68,12 +68,12 @@ function App() {
               <Route path="/" element={<LandingPage />} />
               <Route path="/Login" element={<LoginPage />} />
               <Route path="/Register" element={<RegisterPage />} />
-              <Route path="/Profile" element={<ProfilePage />} />
-              <Route path="/Account" element={<AccountPage />} />
-              <Route path="/Subscription" element={<SubscriptionPage />} />
+              {/* <Route path="/Profile" element={<ProfilePage />} /> */}
+              {/* <Route path="/Account" element={<AccountPage />} /> */}
+              {/* <Route path="/Subscription" element={<SubscriptionPage />} /> */}
               <Route path="/WorkSpace" element={<WorkSpacePage />} />
               <Route path="/CreateProject" element={<CreateNewProject />} />
-              <Route path="/Compare" element={<ComparePage />} />
+              {/* <Route path="/Compare" element={<ComparePage />} /> */}
               <Route path="/ProjectConfig" element={<ProjectConfigPage />} />
               <Route path="/TotalInvestment" element={<TotalInvestmentPage />} />
               <Route path="/OperationCost" element={<OperationCostPage />} />
@@ -81,11 +81,11 @@ function App() {
               <Route path="/Miscellaneous" element={<MiscellaneousPage />} />
               <Route path="/FFC" element={<FFCPage />} />
               <Route path="/Statements" element={<StatementsPage/>} />
-              <Route path="/CustomStatements" element={<CustomStatementPage />} />
+              {/* <Route path="/CustomStatements" element={<CustomStatementPage />} /> */}
               <Route path="/CashFlowStatements" element={<CashFlowStatement />} />
               <Route path="/ProfitLossStatements" element={<ProfitLossStatement />}/>
-              <Route path="/Sensitivity/cashflow" element={<SensitivityCashflow />}/>
-              <Route path="/Sensitivity/income" element={<SensitivityIncome />}/>
+              {/* <Route path="/Sensitivity/cashflow" element={<SensitivityCashflow />}/> */}
+              {/* <Route path="/Sensitivity/income" element={<SensitivityIncome />}/> */}
               <Route path="/Chart/cashflow" element={<CashflowChartPage />} />
               <Route path="/Chart/income" element={<IncomeChartPage />} />
 
