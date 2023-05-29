@@ -119,11 +119,10 @@ function RegisterPage() {
                   <p>Sign in</p>
                 </Link>
               </div>
-              <ConditionalLink condition={user} to="/Workspace" style={{ textDecoration: "none" }} >
                 <button type="submit" className="btn login-butt">
                   Sign up
                 </button>
-              </ConditionalLink>
+             
             </div>
           </form>
         </div>
