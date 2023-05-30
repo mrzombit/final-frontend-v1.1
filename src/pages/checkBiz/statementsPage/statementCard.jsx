@@ -2,7 +2,7 @@ import React from "react";
 import "./statementCard.css";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 
-function statementCard(props) {
+function StatementCard(props) {
   return (
     <div>
       <div className="statement-card">
@@ -19,4 +19,4 @@ function statementCard(props) {
   );
 }
 
-export default statementCard;
+export default StatementCard;

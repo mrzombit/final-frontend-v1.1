@@ -1,5 +1,4 @@
 import React from 'react'
-import BIZTOOL_PAGE_CONFIG from '../../../../../../pages/bizTools/pageConfig'
 import './cellStyle.css'
 
 const OptionCell = (props) => {

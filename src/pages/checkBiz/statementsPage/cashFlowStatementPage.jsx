@@ -6,10 +6,6 @@ import StatementHearder from "../../../components/statement/statementHearder";
 import BizSidebar from "../../../components/bizTools/bizSidebar/bizSidebar";
 import { BiPrinter } from 'react-icons/bi';
 
-// import Html from "react-pdf-html";
-// import ExportPdfComponent from "../../../components/statement/ExportPdfComponent";
-// import { Document, Page } from "react-pdf";
-// import { PDFViewer } from "@react-pdf/renderer";
 
 const cashFlowStatement = () => {
   // const [numPages, setNumPages] = useState(null);

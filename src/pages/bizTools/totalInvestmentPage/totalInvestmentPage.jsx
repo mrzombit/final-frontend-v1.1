@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import BizSidebar from "../../../components/bizTools/bizSidebar/bizSidebar";
 import "../biztools.css";
+import BizSidebar from "../../../components/bizTools/bizSidebar/bizSidebar";
 import BiztoolHeader from "../../../components/investmentProject/biztoolHeader/biztoolHeader";
 import BiztoolBody from "../../../components/investmentProject/biztoolBody/biztoolBody";
 import BIZTOOL_PAGE_CONFIG from "../pageConfig";

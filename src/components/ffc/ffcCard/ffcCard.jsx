@@ -17,18 +17,6 @@ import {
 import EditInputOnSidebar from "../../checkbiz/sidebarEditdata/editInputOnSidebar";
 import checkbizFormula from "../../checkbiz/checkbizFormula/checkbizFormula";
 
-
-
-// import BarChart from '../../statement/charts/barChart';
-// import CombinationChartsMinMax from '../../statement/charts/combinationChartsMinMax';
-// import stackedBar from '../../statement/charts/stackedBar';
-// import DoughnutChart from '../../statement/charts/doughnutChart';
-// import bizSidebar from '../../bizTools/bizSidebar/bizSidebar';
-// import statementHearder from '../../statement/statementHearder';
-// import sensitivityEditSidebar from '../../sensitivity/sensitivityEdit/sidebar/sensitivityEditSidebar';
-// import { AiOutlineDoubleLeft } from "react-icons/ai";
-// import BIZTOOL_PAGE_CONFIG from '../../../pages/bizTools/pageConfig';
-
 const ffcCard = (props) => {
 
     const cbf = checkbizFormula();

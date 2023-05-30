@@ -1,9 +1,0 @@
-/* bizEachItemPerYear */
-.beipy-container {
-    display: flex;
-    width: 660px;
-    /* height: 500px; */
-    /* background-color: aqua; */
-    overflow-x: scroll;
-    cursor: grab;
-}

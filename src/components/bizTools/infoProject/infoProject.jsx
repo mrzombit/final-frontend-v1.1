@@ -4,11 +4,11 @@ import React, { useEffect, useState } from "react";
 import Select from 'react-select'
 import "./infoProject2.css";
 
-import { projectUpdated, setSelectedProject, updateProject } from "../../../features/projectsSlice";
+import {  setSelectedProject, updateProject } from "../../../features/projectsSlice";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import timeToShow from "../../common/timeToShow";
-import INPUT_TYPES from "../../../pages/comparePage/createProjectInputTypes";
+import INPUT_TYPES from "./createProjectInputTypes";
 import URL from './../../../URL'
 
 function infoProject(props) {

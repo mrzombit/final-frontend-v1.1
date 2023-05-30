@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import BIZTOOL_PAGE_CONFIG from '../../../../../pages/bizTools/pageConfig'
-import InputCell from './biztoolCell/inputCell'
+import InputCell from './biztoolCell/inputCell'//
 import DropdownCell from './biztoolCell/dropdownCell';
 import RepaymentsTable from './biztoolCell/repaymentsTable';
 import SeasonalTrendsTable from './biztoolCell/seasonalTrendsTable';

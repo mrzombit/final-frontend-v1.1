@@ -1,7 +1,7 @@
 import React from "react";
 import BizSidebar from "../../../components/bizTools/bizSidebar/bizSidebar";
 import BiztoolHeader from "../../../components/investmentProject/biztoolHeader/biztoolHeader";
-import StatementCard from "../../../components/subscription/statementCard/statementCard";
+import StatementCard from "./statementCard";
 import BIZTOOL_PAGE_CONFIG from "../../bizTools/pageConfig";
 import { Link } from "react-router-dom";
 import "./statementsPage.css";

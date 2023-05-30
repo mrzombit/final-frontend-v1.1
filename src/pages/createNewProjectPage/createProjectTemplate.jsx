@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import './createNewProject.css'
-import MAIN_CATEGORY from './typeOfMainCategory'
-import ProjectTempleteCard from "../../components/projects/projectTempleteCard/projectTempleteCard";
 import { updateProjectTemplate, fetchProjectTemplates } from '../../features/projectTemplatesSlice';
 import { addNewProject, setSelectedProject, setShallowCreateProject } from '../../features/projectsSlice';
 import { useNavigate } from 'react-router-dom';
+import MAIN_CATEGORY from './typeOfMainCategory'
 import BiztoolConfirmPopup from '../../components/common/biztoolConfirmPopup';
+import ProjectTempleteCard from "../../components/projects/projectTempleteCard/projectTempleteCard";
 import BiztoolButton from '../../components/common/biztoolButton/biztoolButton';
 
 const CreateProjectTemplate = (props) => {

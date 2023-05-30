@@ -4,8 +4,6 @@ import CHECKBIZ_CONFIG from "../../checkbiz/checkbizData/checkbizConfig";
 import { useDispatch, useSelector } from "react-redux";
 import {
   fetchProjectById,
-  projectUpdated,
-  updateProject,
 } from "../../../features/projectsSlice";
 import checkbizFormula from "../../checkbiz/checkbizFormula/checkbizFormula";
 

@@ -14,14 +14,6 @@ import {
 import EditInputOnSidebar from "../../../../components/checkbiz/sidebarEditdata/editInputOnSidebar";
 import checkbizFormula from "../../../../components/checkbiz/checkbizFormula/checkbizFormula";
 
-// import * as cbf from "../../../../components/checkbiz/checkbizFormula/checkbizFormula_try";
-// import BarChart from "../../../../components/statement/charts/barChart";
-// import CombinationChartsMinMax from "../../../../components/statement/charts/combinationChartsMinMax";
-// import StackedBar from "../../../../components/statement/charts/stackedBar";
-// import DoughnutChart from "../../../../components/statement/charts/doughnutChart";
-// import SensitivityEditSidebar from "../../../../components/sensitivity/sensitivityEdit/sidebar/sensitivityEditSidebar";
-// import BIZTOOL_PAGE_CONFIG from "../../../bizTools/pageConfig";
-
 const cashflowChartPage = (props) => {
 
   const cbf = checkbizFormula();
@@ -34,28 +26,6 @@ const cashflowChartPage = (props) => {
   const {totalCFF} = cbf.calculateCFF();
 
   let netIncome = (totalRevenue_year.map((each, i) => each - totalFixedCost[i]))
-
-  // const [newRevenuePerService, setNewRevenuePerService] = useState(null);
-  // const config = BIZTOOL_PAGE_CONFIG.revenue
-  // const [tableService, setTableService] = useState();
-  // const [service, setService] = useState();
-  // const [revenuePerService, setRevenuePerService] = useState();
-  // const yearRange = [1, 2, 3, 4];
-  // const [message, setMessage] = useState("");
-
-  // const handleChange = (event) => {
-  //   setMessage(event.target.value);
-  //   console.log("value is:", event.target.value);
-  // };
-
-  // const totalRevenue = [15000,17000,15000];
-  // const totalFixedCost = [17000,15000,10000];
-  
-  // const totalFixedCost = [];
-  // const totalCFO = [];
-  // const totalCFI = [0, 0, 0];
-  // const totalCFF = [];
-  // const yearRange = [];
 
   const dispatch = useDispatch();
   const selectedProject = useSelector(
@@ -157,24 +127,6 @@ const cashflowChartPage = (props) => {
         return eachTableFixedCost;
       }
     );
-
-    // shallowInvestmentTables = shallowInvestmentTables.map(
-    //   (eachTableInvestment) => {
-    //     if (eachTableInvestment._id === tableID) {
-    //       eachTableInvestment.investments = eachTableInvestment.investments.map(
-    //         (eachInvestment) => {
-    //           if (eachInvestment._id === unitID) {
-    //             if (eachInvestment.amount !== amountPerUnit) {
-    //               eachInvestment.amount = amountPerUnit;
-    //             }
-    //           }
-    //           return eachInvestment;
-    //         }
-    //       );
-    //     }
-    //     return eachTableInvestment;
-    //   }
-    // );
 
     // Find the index of the table with the matching ID
     const tableIndex = shallowInvestmentTables.findIndex((table) => table._id === tableID);

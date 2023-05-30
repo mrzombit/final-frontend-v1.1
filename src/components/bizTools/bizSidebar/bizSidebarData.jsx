@@ -6,7 +6,6 @@ import { BsCashCoin } from "react-icons/bs";
 import { HiOutlineNewspaper } from "react-icons/hi";
 import { BiCoinStack } from "react-icons/bi";
 import { SiNounproject } from "react-icons/si";
-import { TbDashboard } from "react-icons/tb";
 
 export const bizSidebarData_biztools = [
   {

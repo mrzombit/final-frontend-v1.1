@@ -7,18 +7,8 @@ import "./statementsPage.css";
 import IncomeDocument from '../../../components/statement/documents/incomeDocument';
 import { BiPrinter } from 'react-icons/bi';
 
-// import Html from "react-pdf-html";
-// import ExportPdfComponent from "../../../components/statement/ExportPdfComponent";
-// import { Document, Page } from "react-pdf";
-// import { PDFViewer } from "@react-pdf/renderer";
 
 const profitLossStatement = () => {
-  // const [numPages, setNumPages] = useState(null);
-  // const [pageNumber, setPageNumber] = useState(1);
-
-  // function onDocumentLoadSuccess({ numPages }) {
-  //   setNumPages(numPages);
-  // }
 
   const printDocument = () => {
     const input = document.getElementById("divToPrint");

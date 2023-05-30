@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProjectById, projectUpdated, updateProject } from "../../../features/projectsSlice"
-import BIZTOOL_PAGE_CONFIG from "../../../pages/bizTools/pageConfig";
+import { fetchProjectById } from "../../../features/projectsSlice"
 
 export default function checkbizFormula() {
 
