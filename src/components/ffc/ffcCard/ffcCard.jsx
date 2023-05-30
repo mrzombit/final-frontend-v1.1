@@ -7,7 +7,7 @@ import { FaThList } from "react-icons/fa";
 
 import CombinationCharts from '../../statement/charts/combinationCharts';
 import "../../../pages/checkBiz/statementsPage/chartPages/chartPages.css";
-import "../../sensitivity/sensitivityEdit/sidebar/sensitivityEditSidebar.css";
+// import "../../sensitivity/sensitivityEdit/sidebar/sensitivityEditSidebar.css";
 import { useDispatch, useSelector } from "react-redux";
 import {
     fetchProjectById,

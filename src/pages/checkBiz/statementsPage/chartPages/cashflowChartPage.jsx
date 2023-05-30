@@ -4,7 +4,7 @@ import BizSidebar from "../../../../components/bizTools/bizSidebar/bizSidebar";
 import StatementHearder from "../../../../components/statement/statementHearder";
 import "./chartPages.css";
 import { AiOutlineDoubleLeft } from "react-icons/ai";
-import "./../../../../components/sensitivity/sensitivityEdit/sidebar/sensitivityEditSidebar.css";
+// import "./../../../../components/sensitivity/sensitivityEdit/sidebar/sensitivityEditSidebar.css";
 import { useDispatch, useSelector } from "react-redux";
 import {
   fetchProjectById,

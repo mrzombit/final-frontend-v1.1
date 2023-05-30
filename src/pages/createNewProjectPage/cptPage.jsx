@@ -3,7 +3,7 @@ import Select from 'react-select'
 import BiztoolButton from '../../components/common/biztoolButton/biztoolButton'
 import timeToShow from '../../components/common/timeToShow'
 import URL from '../../URL'
-import INPUT_TYPES from '../comparePage/createProjectInputTypes'
+import INPUT_TYPES from '../../components/bizTools/infoProject/createProjectInputTypes'
 import './createNewProject.css'
 
 const CPTPage = (props) => {

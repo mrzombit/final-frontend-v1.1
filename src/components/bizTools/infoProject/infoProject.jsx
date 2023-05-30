@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 import React, { useEffect, useState } from "react";
 import Select from 'react-select'
-import "./infoProject2.css";
+import "./infoProject.css";
 
 import {  setSelectedProject, updateProject } from "../../../features/projectsSlice";
 import { useDispatch, useSelector } from "react-redux";
